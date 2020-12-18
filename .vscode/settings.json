@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**.aux": true,
+        "**.fdb_latexmk": true,
+        "**.fls": true,
+        "**.log": true,
+        "**.gz": true,
+    },
+}
