@@ -1,6 +1,4 @@
 {
-    "editor.formatOnSave": true,
-
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -12,5 +10,7 @@
         "**.fls": true,
         "**.log": true,
         "**.gz": true,
+        "**_temp**": true,
+        "*.toc": true,
     },
 }
