@@ -1,0 +1,38 @@
+\chapter{Conclusions}
+\label{chap:Conclusions}
+\begin{flushleft}
+    This is the final chapter of this report and it summarizes the key features, limitations of the project and suggests
+    a future direction for further improvement.
+\end{flushleft}
+
+\section{Summary}
+    \begin{flushleft}
+        This project implements 2FA on smart home/facilities. It uses a Facial Recognition System along with a 
+        traditional Keypad for pass code entry. It also uses wireless intrusion detection sensors to prevent intrusions
+        going unnoticed. The information from this project can be accessed from anywhere of the world.
+    \end{flushleft}
+
+\section{Limitations}
+    \begin{flushleft}
+        This project uses a single camera with no depth sensor. There is a potential of fooling the system with a 
+        photograph of the authorized person. Even though this could not be reproducible in our testing but it is a 
+        limitation of the technology used. 
+        
+        The processor on the main unit Raspberry Pi is not very fast. Hence if more than 10 face is available in front 
+        of the camera it struggles to recognize the correct face.
+    \end{flushleft}
+
+\section{Direction For Future Work}
+    \subsection{Camera}
+        \begin{flushleft}
+            The problem of fooling the system with a photograph can be solved by using a stereo camera or by adding a 
+            depth camera with the system. The face encoding data then can not be used with normal photographs, it has 
+            to be collected with a similar depth/stereo camera. 
+        \end{flushleft}
+
+    \subsection{Hardware}
+        \begin{flushleft}
+            The Raspberry Pi 3B used in this project is a very old device. The newer Raspberry Pi 4B is a more capable
+            device. This can solve this issue. Also, a full server grade hardware can easily solve this too while
+            adding headroom for future expansion. 
+        \end{flushleft}
