@@ -14,5 +14,6 @@
         "**_temp**": true,
         "*.toc": true,
         "*.pdf": true,
+        "*.out": true,
     },
 }
